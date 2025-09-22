@@ -1,17 +1,16 @@
 {
-  "name": "dama-server",
+  "name": "hari-ng-dama-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WebSocket server for Hari ng Dama game",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "uuid": "^13.0.0",
-    "ws": "^8.18.3"
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
